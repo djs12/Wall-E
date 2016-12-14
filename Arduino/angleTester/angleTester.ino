@@ -13,6 +13,9 @@
 
   MotorA is the right motor when looking from the back(side w/o battery)
   MotorB is the left
+  
+  Note: calibration code is adapted from Joop Brooking's code which can be found on his website http://www.brokking.net/imu.html
+  
  */
 
 #include <Wire.h>
