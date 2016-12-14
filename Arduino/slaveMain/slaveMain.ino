@@ -60,46 +60,46 @@ void setup() {
 
 void loop() {
 
-  dis1 = DistanceSensor1.ping_cm();
-  dis2 = DistanceSensor2.ping_cm();
-  dis3 = DistanceSensor3.ping_cm();
-  dis4 = DistanceSensor4.ping_cm();
-  dis5 = DistanceSensor5.ping_cm();
-  dis6 = DistanceSensor6.ping_cm();
- delay(100);
+//   dis1 = DistanceSensor1.ping_cm();
+//   dis2 = DistanceSensor2.ping_cm();
+//   dis3 = DistanceSensor3.ping_cm();
+//   dis4 = DistanceSensor4.ping_cm();
+//   dis5 = DistanceSensor5.ping_cm();
+//   dis6 = DistanceSensor6.ping_cm();
+//  delay(100);
 
-//  if ( millis() > echoTime ){
-//    echoTime += 10;
-//
-//    switch (var){
-//      case 1:
-//        dis1 = DistanceSensor1.ping_cm();
-//        var = 2;
-//        break;
-//      case 2:
-//        dis2 = DistanceSensor2.ping_cm();
-//        var = 3;
-//        break;
-//      case 3:
-//        dis3 = DistanceSensor3.ping_cm();
-//        var = 4;
-//        break;
-//      case 4:
-//        dis4 = DistanceSensor4.ping_cm();
-//        var = 5;
-//        break;
-//      case 5:
-//        dis5 = DistanceSensor5.ping_cm();
-//        var = 6;
-//        break;
-//      case 6:
-//        dis6 = DistanceSensor6.ping_cm();
-//        var = 1;
-//        break;
-//        
-//      
-//    }
-//  }
+ if ( millis() > echoTime ){
+   echoTime += 1;
+
+   switch (var){
+     case 1:
+       dis1 = DistanceSensor1.ping_cm();
+       var = 2;
+       break;
+     case 2:
+       dis2 = DistanceSensor2.ping_cm();
+       var = 3;
+       break;
+     case 3:
+       dis3 = DistanceSensor3.ping_cm();
+       var = 4;
+       break;
+     case 4:
+       dis4 = DistanceSensor4.ping_cm();
+       var = 5;
+       break;
+     case 5:
+       dis5 = DistanceSensor5.ping_cm();
+       var = 6;
+       break;
+     case 6:
+       dis6 = DistanceSensor6.ping_cm();
+       var = 1;
+       break;
+       
+     
+   }
+ }
   
   
 
